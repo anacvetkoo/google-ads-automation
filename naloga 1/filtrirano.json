@@ -1,0 +1,415 @@
+[
+    {
+        "id": "K002",
+        "ime": "Rezervacije hotelskih sob",
+        "cilj": "LEADS",
+        "nacinDoseganjaCilja": "WEBSITE_VISITS",
+        "ciljnaLokacija": "Avstrija",
+        "jezik": "de",
+        "dnevniProracun": 50.0,
+        "strategijaPonudb": "MAXIMIZE_CONVERSIONS",
+        "status": "ENABLED",
+        "datumUstvarjanja": "2026-09-20",
+        "skupineOglasov": [
+            {
+                "id": "S002",
+                "kampanjaId": "K002",
+                "ime": "Hotelzimmer buchen",
+                "status": "ENABLED",
+                "kljucneBesede": [
+                    {
+                        "id": "KB003",
+                        "skupinaId": "S002",
+                        "besedilo": "hotelzimmer buchen",
+                        "ujemanje": "BROAD",
+                        "povprecnaMesecnaIskanja": 12100,
+                        "trimesečnaSprememba": 15,
+                        "letnaSprememba": 9,
+                        "konkurenca": "HIGH",
+                        "ponudbaNizka": 0.8,
+                        "ponudbaVisoka": 3.2
+                    },
+                    {
+                        "id": "KB004",
+                        "skupinaId": "S002",
+                        "besedilo": "hotel online buchen",
+                        "ujemanje": "PHRASE",
+                        "povprecnaMesecnaIskanja": 6600,
+                        "trimesečnaSprememba": 8,
+                        "letnaSprememba": 12,
+                        "konkurenca": "HIGH",
+                        "ponudbaNizka": 0.95,
+                        "ponudbaVisoka": 3.6
+                    }
+                ],
+                "oglasi": [
+                    {
+                        "id": "O002",
+                        "skupinaId": "S002",
+                        "koncniUrl": "https://example.com/hotelzimmer",
+                        "prikaznaPot1": "hotel",
+                        "prikaznaPot2": null,
+                        "naslovi": [
+                            "Hotelzimmer online buchen",
+                            "Finden Sie Ihr Hotelzimmer",
+                            "Jetzt Hotelzimmer entdecken"
+                        ],
+                        "opisi": [
+                            "Entdecken Sie passende Hotelzimmer und planen Sie Ihren nächsten Aufenthalt.",
+                            "Vergleichen Sie Zimmerangebote und buchen Sie Ihren Aufenthalt bequem online."
+                        ],
+                        "status": "ENABLED"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "K004",
+        "ime": "Prodaja električnih koles",
+        "cilj": "SALES",
+        "nacinDoseganjaCilja": "WEBSITE_VISITS",
+        "ciljnaLokacija": "Nemčija",
+        "jezik": "de",
+        "dnevniProracun": 80.0,
+        "strategijaPonudb": "MAXIMIZE_CONVERSION_VALUE",
+        "status": "ENABLED",
+        "datumUstvarjanja": "2026-09-25",
+        "skupineOglasov": [
+            {
+                "id": "S004",
+                "kampanjaId": "K004",
+                "ime": "Elektrofahrräder",
+                "status": "ENABLED",
+                "kljucneBesede": [
+                    {
+                        "id": "KB007",
+                        "skupinaId": "S004",
+                        "besedilo": "e bike kaufen",
+                        "ujemanje": "BROAD",
+                        "povprecnaMesecnaIskanja": 18100,
+                        "trimesečnaSprememba": 25,
+                        "letnaSprememba": 18,
+                        "konkurenca": "HIGH",
+                        "ponudbaNizka": 0.9,
+                        "ponudbaVisoka": 3.8
+                    },
+                    {
+                        "id": "KB008",
+                        "skupinaId": "S004",
+                        "besedilo": "elektrofahrrad online kaufen",
+                        "ujemanje": "EXACT",
+                        "povprecnaMesecnaIskanja": 4400,
+                        "trimesečnaSprememba": 16,
+                        "letnaSprememba": 21,
+                        "konkurenca": "HIGH",
+                        "ponudbaNizka": 1.1,
+                        "ponudbaVisoka": 4.2
+                    }
+                ],
+                "oglasi": [
+                    {
+                        "id": "O004",
+                        "skupinaId": "S004",
+                        "koncniUrl": "https://example.com/elektrofahrrader",
+                        "prikaznaPot1": "e-bikes",
+                        "prikaznaPot2": "kaufen",
+                        "naslovi": [
+                            "Elektrofahrräder kaufen",
+                            "Entdecken Sie unsere E-Bikes",
+                            "Ihr neues E-Bike wartet"
+                        ],
+                        "opisi": [
+                            "Entdecken Sie Elektrofahrräder für Alltag, Freizeit und längere Touren.",
+                            "Finden Sie das passende E-Bike und entdecken Sie unser Sortiment online."
+                        ],
+                        "status": "ENABLED"
+                    }
+                ]
+            },
+            {
+                "id": "S017",
+                "kampanjaId": "K004",
+                "ime": "E-Mountainbikes",
+                "status": "ENABLED",
+                "kljucneBesede": [
+                    {
+                        "id": "KB033",
+                        "skupinaId": "S017",
+                        "besedilo": "e mountainbike kaufen",
+                        "ujemanje": "PHRASE",
+                        "povprecnaMesecnaIskanja": 8100,
+                        "trimesečnaSprememba": 28,
+                        "letnaSprememba": 19,
+                        "konkurenca": "HIGH",
+                        "ponudbaNizka": 1.05,
+                        "ponudbaVisoka": 4.1
+                    },
+                    {
+                        "id": "KB034",
+                        "skupinaId": "S017",
+                        "besedilo": "elektro mountainbike",
+                        "ujemanje": "EXACT",
+                        "povprecnaMesecnaIskanja": 5400,
+                        "trimesečnaSprememba": 17,
+                        "letnaSprememba": 23,
+                        "konkurenca": "HIGH",
+                        "ponudbaNizka": 0.95,
+                        "ponudbaVisoka": 3.75
+                    }
+                ],
+                "oglasi": [
+                    {
+                        "id": "O017",
+                        "skupinaId": "S017",
+                        "koncniUrl": "https://example.com/e-mountainbikes",
+                        "prikaznaPot1": "e-mtb",
+                        "prikaznaPot2": null,
+                        "naslovi": [
+                            "E-Mountainbikes entdecken",
+                            "Elektrische Mountainbikes",
+                            "Finden Sie Ihr neues E-MTB"
+                        ],
+                        "opisi": [
+                            "Entdecken Sie elektrische Mountainbikes für Touren und Fahrten im Gelände.",
+                            "Vergleichen Sie verschiedene E-MTB Modelle und finden Sie das passende Fahrrad."
+                        ],
+                        "status": "ENABLED"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "K009",
+        "ime": "Prodaja kozmetičnih izdelkov",
+        "cilj": "SALES",
+        "nacinDoseganjaCilja": "WEBSITE_VISITS",
+        "ciljnaLokacija": "Italija",
+        "jezik": "it",
+        "dnevniProracun": 60.0,
+        "strategijaPonudb": "MAXIMIZE_CONVERSION_VALUE",
+        "status": "PAUSED",
+        "datumUstvarjanja": "2026-10-04",
+        "skupineOglasov": [
+            {
+                "id": "S009",
+                "kampanjaId": "K009",
+                "ime": "Prodotti cosmetici",
+                "status": "PAUSED",
+                "kljucneBesede": [
+                    {
+                        "id": "KB017",
+                        "skupinaId": "S009",
+                        "besedilo": "cosmetici online",
+                        "ujemanje": "PHRASE",
+                        "povprecnaMesecnaIskanja": 9900,
+                        "trimesečnaSprememba": 12,
+                        "letnaSprememba": 15,
+                        "konkurenca": "HIGH",
+                        "ponudbaNizka": 0.55,
+                        "ponudbaVisoka": 2.3
+                    },
+                    {
+                        "id": "KB018",
+                        "skupinaId": "S009",
+                        "besedilo": "prodotti skincare",
+                        "ujemanje": "BROAD",
+                        "povprecnaMesecnaIskanja": 5400,
+                        "trimesečnaSprememba": 19,
+                        "letnaSprememba": 22,
+                        "konkurenca": "HIGH",
+                        "ponudbaNizka": 0.6,
+                        "ponudbaVisoka": 2.6
+                    }
+                ],
+                "oglasi": [
+                    {
+                        "id": "O009",
+                        "skupinaId": "S009",
+                        "koncniUrl": "https://example.com/cosmetici",
+                        "prikaznaPot1": null,
+                        "prikaznaPot2": null,
+                        "naslovi": [
+                            "Cosmetici online",
+                            "Scopri i nostri cosmetici",
+                            "Acquista prodotti di bellezza"
+                        ],
+                        "opisi": [
+                            "Scopri una selezione di cosmetici e prodotti per la tua routine di bellezza.",
+                            "Esplora il nostro assortimento e scegli i prodotti più adatti alle tue esigenze."
+                        ],
+                        "status": "PAUSED"
+                    }
+                ]
+            },
+            {
+                "id": "S019",
+                "kampanjaId": "K009",
+                "ime": "Prodotti per capelli",
+                "status": "PAUSED",
+                "kljucneBesede": [
+                    {
+                        "id": "KB037",
+                        "skupinaId": "S019",
+                        "besedilo": "prodotti per capelli",
+                        "ujemanje": "BROAD",
+                        "povprecnaMesecnaIskanja": 8100,
+                        "trimesečnaSprememba": 13,
+                        "letnaSprememba": 17,
+                        "konkurenca": "HIGH",
+                        "ponudbaNizka": 0.5,
+                        "ponudbaVisoka": 2.15
+                    },
+                    {
+                        "id": "KB038",
+                        "skupinaId": "S019",
+                        "besedilo": "shampoo professionale online",
+                        "ujemanje": "PHRASE",
+                        "povprecnaMesecnaIskanja": 2900,
+                        "trimesečnaSprememba": 16,
+                        "letnaSprememba": 20,
+                        "konkurenca": "MEDIUM",
+                        "ponudbaNizka": 0.4,
+                        "ponudbaVisoka": 1.85
+                    }
+                ],
+                "oglasi": [
+                    {
+                        "id": "O019",
+                        "skupinaId": "S019",
+                        "koncniUrl": "https://example.com/prodotti-capelli",
+                        "prikaznaPot1": "capelli",
+                        "prikaznaPot2": "prodotti",
+                        "naslovi": [
+                            "Prodotti per capelli online",
+                            "Scopri la cura dei capelli",
+                            "Shampoo e prodotti capelli"
+                        ],
+                        "opisi": [
+                            "Scopri shampoo e prodotti dedicati alla cura dei capelli per ogni esigenza.",
+                            "Esplora la nostra selezione e trova i prodotti giusti per la tua routine."
+                        ],
+                        "status": "PAUSED"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "K011",
+        "ime": "Prodaja računalniške opreme",
+        "cilj": "SALES",
+        "nacinDoseganjaCilja": "WEBSITE_VISITS",
+        "ciljnaLokacija": "Nemčija",
+        "jezik": "de",
+        "dnevniProracun": 100.0,
+        "strategijaPonudb": "MAXIMIZE_CONVERSION_VALUE",
+        "status": "ENABLED",
+        "datumUstvarjanja": "2026-10-06",
+        "skupineOglasov": [
+            {
+                "id": "S011",
+                "kampanjaId": "K011",
+                "ime": "Computer Zubehör",
+                "status": "ENABLED",
+                "kljucneBesede": [
+                    {
+                        "id": "KB021",
+                        "skupinaId": "S011",
+                        "besedilo": "computer zubehör kaufen",
+                        "ujemanje": "BROAD",
+                        "povprecnaMesecnaIskanja": 12100,
+                        "trimesečnaSprememba": 11,
+                        "letnaSprememba": 17,
+                        "konkurenca": "HIGH",
+                        "ponudbaNizka": 0.65,
+                        "ponudbaVisoka": 2.7
+                    },
+                    {
+                        "id": "KB022",
+                        "skupinaId": "S011",
+                        "besedilo": "pc hardware online shop",
+                        "ujemanje": "EXACT",
+                        "povprecnaMesecnaIskanja": 3600,
+                        "trimesečnaSprememba": 8,
+                        "letnaSprememba": 12,
+                        "konkurenca": "HIGH",
+                        "ponudbaNizka": 0.75,
+                        "ponudbaVisoka": 3.1
+                    }
+                ],
+                "oglasi": [
+                    {
+                        "id": "O011",
+                        "skupinaId": "S011",
+                        "koncniUrl": "https://example.com/computer-zubehor",
+                        "prikaznaPot1": "computer",
+                        "prikaznaPot2": null,
+                        "naslovi": [
+                            "Computer Zubehör kaufen",
+                            "PC Hardware online entdecken",
+                            "Zubehör für Ihren Computer"
+                        ],
+                        "opisi": [
+                            "Entdecken Sie Computerzubehör und passende Hardware für Ihren Arbeitsplatz.",
+                            "Finden Sie das richtige Zubehör für Ihren PC und bestellen Sie bequem online."
+                        ],
+                        "status": "ENABLED"
+                    }
+                ]
+            },
+            {
+                "id": "S020",
+                "kampanjaId": "K011",
+                "ime": "Gaming Zubehör",
+                "status": "ENABLED",
+                "kljucneBesede": [
+                    {
+                        "id": "KB039",
+                        "skupinaId": "S020",
+                        "besedilo": "gaming zubehör",
+                        "ujemanje": "BROAD",
+                        "povprecnaMesecnaIskanja": 9900,
+                        "trimesečnaSprememba": 18,
+                        "letnaSprememba": 14,
+                        "konkurenca": "HIGH",
+                        "ponudbaNizka": 0.65,
+                        "ponudbaVisoka": 2.75
+                    },
+                    {
+                        "id": "KB040",
+                        "skupinaId": "S020",
+                        "besedilo": "gaming tastatur kaufen",
+                        "ujemanje": "EXACT",
+                        "povprecnaMesecnaIskanja": 4400,
+                        "trimesečnaSprememba": 11,
+                        "letnaSprememba": 16,
+                        "konkurenca": "HIGH",
+                        "ponudbaNizka": 0.75,
+                        "ponudbaVisoka": 3.0
+                    }
+                ],
+                "oglasi": [
+                    {
+                        "id": "O020",
+                        "skupinaId": "S020",
+                        "koncniUrl": "https://example.com/gaming-zubehor",
+                        "prikaznaPot1": "gaming",
+                        "prikaznaPot2": null,
+                        "naslovi": [
+                            "Gaming Zubehör online",
+                            "Gaming Tastaturen entdecken",
+                            "Zubehör für Ihr Gaming Setup"
+                        ],
+                        "opisi": [
+                            "Entdecken Sie Gaming Zubehör für Ihren PC und stellen Sie Ihr Setup zusammen.",
+                            "Finden Sie Gaming Tastaturen und weiteres Zubehör für Ihr Spielerlebnis."
+                        ],
+                        "status": "ENABLED"
+                    }
+                ]
+            }
+        ]
+    }
+]

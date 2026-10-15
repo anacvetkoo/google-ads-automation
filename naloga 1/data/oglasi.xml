@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oglasi>
+    <oglas id="O001" skupinaId="S001">
+        <koncniUrl>https://example.com/sportna-oprema</koncniUrl>
+        <prikaznaPot1>sport</prikaznaPot1>
+        <prikaznaPot2>oprema</prikaznaPot2>
+        <naslovi>
+            <naslov>Športna oprema za vsakogar</naslov>
+            <naslov>Odkrijte našo ponudbo</naslov>
+            <naslov>Naročite športno opremo</naslov>
+        </naslovi>
+        <opisi>
+            <opis>Odkrijte široko izbiro športne opreme za različne aktivnosti.</opis>
+            <opis>Izberite opremo za svoj najljubši šport in oddajte naročilo na spletu.</opis>
+        </opisi>
+        <status>PAUSED</status>
+    </oglas>
+
+    <oglas id="O002" skupinaId="S002">
+        <koncniUrl>https://example.com/hotelzimmer</koncniUrl>
+        <prikaznaPot1>hotel</prikaznaPot1>
+        <naslovi>
+            <naslov>Hotelzimmer online buchen</naslov>
+            <naslov>Finden Sie Ihr Hotelzimmer</naslov>
+            <naslov>Jetzt Hotelzimmer entdecken</naslov>
+        </naslovi>
+        <opisi>
+            <opis>Entdecken Sie passende Hotelzimmer und planen Sie Ihren nächsten Aufenthalt.</opis>
+            <opis>Vergleichen Sie Zimmerangebote und buchen Sie Ihren Aufenthalt bequem online.</opis>
+        </opisi>
+        <status>ENABLED</status>
+    </oglas>
+
+    <oglas id="O003" skupinaId="S003">
+        <koncniUrl>https://example.com/tecaji-jezikov</koncniUrl>
+        <naslovi>
+            <naslov>Tečaji tujih jezikov</naslov>
+            <naslov>Začnite z učenjem jezika</naslov>
+            <naslov>Izberite svoj jezikovni tečaj</naslov>
+        </naslovi>
+        <opisi>
+            <opis>Izberite jezikovni tečaj, ki ustreza vašemu znanju in ciljem.</opis>
+            <opis>Spoznajte našo ponudbo tečajev in naredite prvi korak do novega jezika.</opis>
+        </opisi>
+        <status>PAUSED</status>
+    </oglas>
+
+    <oglas id="O004" skupinaId="S004">
+        <koncniUrl>https://example.com/elektrofahrrader</koncniUrl>
+        <prikaznaPot1>e-bikes</prikaznaPot1>
+        <prikaznaPot2>kaufen</prikaznaPot2>
+        <naslovi>
+            <naslov>Elektrofahrräder kaufen</naslov>
+            <naslov>Entdecken Sie unsere E-Bikes</naslov>
+            <naslov>Ihr neues E-Bike wartet</naslov>
+        </naslovi>
+        <opisi>
+            <opis>Entdecken Sie Elektrofahrräder für Alltag, Freizeit und längere Touren.</opis>
+            <opis>Finden Sie das passende E-Bike und entdecken Sie unser Sortiment online.</opis>
+        </opisi>
+        <status>ENABLED</status>
+    </oglas>
+
+    <oglas id="O005" skupinaId="S005">
+        <koncniUrl>https://example.com/zobozdravnik</koncniUrl>
+        <prikaznaPot1>zobozdravnik</prikaznaPot1>
+        <naslovi>
+            <naslov>Zobozdravstvene storitve</naslov>
+            <naslov>Naročite se na pregled</naslov>
+            <naslov>Poskrbite za svoje zobe</naslov>
+        </naslovi>
+        <opisi>
+            <opis>Spoznajte naše zobozdravstvene storitve in možnosti naročanja na pregled.</opis>
+            <opis>Za informacije o storitvah in prostih terminih nas kontaktirajte.</opis>
+        </opisi>
+        <status>PAUSED</status>
+    </oglas>
+
+    <oglas id="O006" skupinaId="S006">
+        <koncniUrl>https://example.com/rent-a-car</koncniUrl>
+        <naslovi>
+            <naslov>Najam automobila u Hrvatskoj</naslov>
+            <naslov>Pronađite automobil za najam</naslov>
+            <naslov>Rezervirajte vozilo online</naslov>
+        </naslovi>
+        <opisi>
+            <opis>Pronađite automobil za svoje putovanje i pregledajte dostupne mogućnosti najma.</opis>
+            <opis>Odaberite odgovarajuće vozilo i pošaljite upit za najam putem interneta.</opis>
+        </opisi>
+        <status>ENABLED</status>
+    </oglas>
+
+    <oglas id="O007" skupinaId="S007">
+        <koncniUrl>https://example.com/pohistvo</koncniUrl>
+        <prikaznaPot1>pohistvo</prikaznaPot1>
+        <prikaznaPot2>dom</prikaznaPot2>
+        <naslovi>
+            <naslov>Pohištvo za vaš dom</naslov>
+            <naslov>Odkrijte ponudbo pohištva</naslov>
+            <naslov>Nakup pohištva na spletu</naslov>
+        </naslovi>
+        <opisi>
+            <opis>Odkrijte pohištvo za dnevno sobo, spalnico in druge prostore vašega doma.</opis>
+            <opis>Izberite pohištvo po svojem okusu in si oglejte ponudbo v spletni trgovini.</opis>
+        </opisi>
+        <status>PAUSED</status>
+    </oglas>
+
+    <oglas id="O008" skupinaId="S008">
+        <koncniUrl>https://example.com/fitnessstudio</koncniUrl>
+        <prikaznaPot1>fitness</prikaznaPot1>
+        <naslovi>
+            <naslov>Fitnessstudio entdecken</naslov>
+            <naslov>Starten Sie Ihr Training</naslov>
+            <naslov>Jetzt Mitgliedschaft anfragen</naslov>
+        </naslovi>
+        <opisi>
+            <opis>Entdecken Sie unsere Trainingsmöglichkeiten und finden Sie das passende Angebot.</opis>
+            <opis>Informieren Sie sich über Mitgliedschaften und starten Sie mit Ihrem Training.</opis>
+        </opisi>
+        <status>ENABLED</status>
+    </oglas>
+
+    <oglas id="O009" skupinaId="S009">
+        <koncniUrl>https://example.com/cosmetici</koncniUrl>
+        <naslovi>
+            <naslov>Cosmetici online</naslov>
+            <naslov>Scopri i nostri cosmetici</naslov>
+            <naslov>Acquista prodotti di bellezza</naslov>
+        </naslovi>
+        <opisi>
+            <opis>Scopri una selezione di cosmetici e prodotti per la tua routine di bellezza.</opis>
+            <opis>Esplora il nostro assortimento e scegli i prodotti più adatti alle tue esigenze.</opis>
+        </opisi>
+        <status>PAUSED</status>
+    </oglas>
+
+    <oglas id="O010" skupinaId="S010">
+        <koncniUrl>https://example.com/racunovodstvo</koncniUrl>
+        <prikaznaPot1>racunovodstvo</prikaznaPot1>
+        <prikaznaPot2>storitve</prikaznaPot2>
+        <naslovi>
+            <naslov>Računovodske storitve</naslov>
+            <naslov>Računovodstvo za podjetja</naslov>
+            <naslov>Pošljite povpraševanje</naslov>
+        </naslovi>
+        <opisi>
+            <opis>Spoznajte računovodske storitve za podjetja in samostojne podjetnike.</opis>
+            <opis>Potrebujete računovodsko podporo? Kontaktirajte nas za več informacij.</opis>
+        </opisi>
+        <status>PAUSED</status>
+    </oglas>
+
+    <oglas id="O011" skupinaId="S011">
+        <koncniUrl>https://example.com/computer-zubehor</koncniUrl>
+        <prikaznaPot1>computer</prikaznaPot1>
+        <naslovi>
+            <naslov>Computer Zubehör kaufen</naslov>
+            <naslov>PC Hardware online entdecken</naslov>
+            <naslov>Zubehör für Ihren Computer</naslov>
+        </naslovi>
+        <opisi>
+            <opis>Entdecken Sie Computerzubehör und passende Hardware für Ihren Arbeitsplatz.</opis>
+            <opis>Finden Sie das richtige Zubehör für Ihren PC und bestellen Sie bequem online.</opis>
+        </opisi>
+        <status>ENABLED</status>
+    </oglas>
+
+    <oglas id="O012" skupinaId="S012">
+        <koncniUrl>https://example.com/organizacija-porok</koncniUrl>
+        <naslovi>
+            <naslov>Organizacija porok</naslov>
+            <naslov>Načrtujte svojo sanjsko poroko</naslov>
+            <naslov>Pomoč pri organizaciji poroke</naslov>
+        </naslovi>
+        <opisi>
+            <opis>Načrtujete poroko? Spoznajte možnosti pomoči pri organizaciji vašega dne.</opis>
+            <opis>Od prvih idej do poročnega dne. Pošljite povpraševanje za organizacijo poroke.</opis>
+        </opisi>
+        <status>PAUSED</status>
+    </oglas>
+
+    <oglas id="O013" skupinaId="S013">
+        <koncniUrl>https://example.com/djecje-igracke</koncniUrl>
+        <prikaznaPot1>igracke</prikaznaPot1>
+        <prikaznaPot2>djeca</prikaznaPot2>
+        <naslovi>
+            <naslov>Dječje igračke online</naslov>
+            <naslov>Pronađite igračke za djecu</naslov>
+            <naslov>Otkrijte ponudu igračaka</naslov>
+        </naslovi>
+        <opisi>
+            <opis>Istražite ponudu dječjih igračaka za različite uzraste i interese.</opis>
+            <opis>Odaberite igračke za igru i zabavu te pregledajte našu internetsku trgovinu.</opis>
+        </opisi>
+        <status>ENABLED</status>
+    </oglas>
+
+    <oglas id="O014" skupinaId="S014">
+        <koncniUrl>https://example.com/cistilni-servis</koncniUrl>
+        <prikaznaPot1>ciscenje</prikaznaPot1>
+        <naslovi>
+            <naslov>Profesionalni čistilni servis</naslov>
+            <naslov>Čiščenje poslovnih prostorov</naslov>
+            <naslov>Pošljite povpraševanje</naslov>
+        </naslovi>
+        <opisi>
+            <opis>Potrebujete pomoč pri čiščenju? Spoznajte naše čistilne storitve.</opis>
+            <opis>Za čiščenje pisarn in drugih prostorov nas kontaktirajte za ponudbo.</opis>
+        </opisi>
+        <status>PAUSED</status>
+    </oglas>
+
+    <oglas id="O015" skupinaId="S015">
+        <koncniUrl>https://example.com/gartenwerkzeuge</koncniUrl>
+        <naslovi>
+            <naslov>Gartenwerkzeuge online</naslov>
+            <naslov>Werkzeuge für Ihren Garten</naslov>
+            <naslov>Gartengeräte jetzt entdecken</naslov>
+        </naslovi>
+        <opisi>
+            <opis>Entdecken Sie Gartenwerkzeuge und Geräte für verschiedene Arbeiten im Garten.</opis>
+            <opis>Finden Sie die passenden Werkzeuge für Ihre Gartenpflege und bestellen Sie online.</opis>
+        </opisi>
+        <status>PAUSED</status>
+    </oglas>
+
+    <oglas id="O016" skupinaId="S016">
+        <koncniUrl>https://example.com/fitnes-pripomocki</koncniUrl>
+        <prikaznaPot1>fitnes</prikaznaPot1>
+        <prikaznaPot2>pripomocki</prikaznaPot2>
+        <naslovi>
+            <naslov>Fitnes pripomočki za vadbo</naslov>
+            <naslov>Oprema za domači fitnes</naslov>
+            <naslov>Vadite tudi doma</naslov>
+        </naslovi>
+        <opisi>
+            <opis>Odkrijte pripomočke za domačo vadbo, krepitev mišic in boljšo pripravljenost.</opis>
+            <opis>Izberite fitnes opremo za svoje cilje in preverite ponudbo v spletni trgovini.</opis>
+        </opisi>
+        <status>PAUSED</status>
+    </oglas>
+
+    <oglas id="O017" skupinaId="S017">
+        <koncniUrl>https://example.com/e-mountainbikes</koncniUrl>
+        <prikaznaPot1>e-mtb</prikaznaPot1>
+        <naslovi>
+            <naslov>E-Mountainbikes entdecken</naslov>
+            <naslov>Elektrische Mountainbikes</naslov>
+            <naslov>Finden Sie Ihr neues E-MTB</naslov>
+        </naslovi>
+        <opisi>
+            <opis>Entdecken Sie elektrische Mountainbikes für Touren und Fahrten im Gelände.</opis>
+            <opis>Vergleichen Sie verschiedene E-MTB Modelle und finden Sie das passende Fahrrad.</opis>
+        </opisi>
+        <status>ENABLED</status>
+    </oglas>
+
+    <oglas id="O018" skupinaId="S018">
+        <koncniUrl>https://example.com/pisarnisko-pohistvo</koncniUrl>
+        <naslovi>
+            <naslov>Pisarniško pohištvo</naslov>
+            <naslov>Oprema za vašo pisarno</naslov>
+            <naslov>Izberite pisarniške stole</naslov>
+        </naslovi>
+        <opisi>
+            <opis>Odkrijte pisarniške stole, mize in drugo pohištvo za delovne prostore.</opis>
+            <opis>Opremite pisarno s pohištvom, ki ustreza vašemu prostoru in načinu dela.</opis>
+        </opisi>
+        <status>PAUSED</status>
+    </oglas>
+
+    <oglas id="O019" skupinaId="S019">
+        <koncniUrl>https://example.com/prodotti-capelli</koncniUrl>
+        <prikaznaPot1>capelli</prikaznaPot1>
+        <prikaznaPot2>prodotti</prikaznaPot2>
+        <naslovi>
+            <naslov>Prodotti per capelli online</naslov>
+            <naslov>Scopri la cura dei capelli</naslov>
+            <naslov>Shampoo e prodotti capelli</naslov>
+        </naslovi>
+        <opisi>
+            <opis>Scopri shampoo e prodotti dedicati alla cura dei capelli per ogni esigenza.</opis>
+            <opis>Esplora la nostra selezione e trova i prodotti giusti per la tua routine.</opis>
+        </opisi>
+        <status>PAUSED</status>
+    </oglas>
+
+    <oglas id="O020" skupinaId="S020">
+        <koncniUrl>https://example.com/gaming-zubehor</koncniUrl>
+        <prikaznaPot1>gaming</prikaznaPot1>
+        <naslovi>
+            <naslov>Gaming Zubehör online</naslov>
+            <naslov>Gaming Tastaturen entdecken</naslov>
+            <naslov>Zubehör für Ihr Gaming Setup</naslov>
+        </naslovi>
+        <opisi>
+            <opis>Entdecken Sie Gaming Zubehör für Ihren PC und stellen Sie Ihr Setup zusammen.</opis>
+            <opis>Finden Sie Gaming Tastaturen und weiteres Zubehör für Ihr Spielerlebnis.</opis>
+        </opisi>
+        <status>ENABLED</status>
+    </oglas>
+</oglasi>

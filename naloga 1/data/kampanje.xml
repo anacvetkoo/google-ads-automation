@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kampanje>
+    <kampanja id="K001">
+        <ime>Prodaja športne opreme</ime>
+        <cilj>SALES</cilj>
+        <nacinDoseganjaCilja>WEBSITE_VISITS</nacinDoseganjaCilja>
+        <ciljnaLokacija>Slovenija</ciljnaLokacija>
+        <jezik>sl</jezik>
+        <dnevniProracun>30.00</dnevniProracun>
+        <strategijaPonudb>MAXIMIZE_CONVERSIONS</strategijaPonudb>
+        <status>PAUSED</status>
+        <datumUstvarjanja>2026-09-15</datumUstvarjanja>
+    </kampanja>
+
+    <kampanja id="K002">
+        <ime>Rezervacije hotelskih sob</ime>
+        <cilj>LEADS</cilj>
+        <nacinDoseganjaCilja>WEBSITE_VISITS</nacinDoseganjaCilja>
+        <ciljnaLokacija>Avstrija</ciljnaLokacija>
+        <jezik>de</jezik>
+        <dnevniProracun>50.00</dnevniProracun>
+        <strategijaPonudb>MAXIMIZE_CONVERSIONS</strategijaPonudb>
+        <status>ENABLED</status>
+        <datumUstvarjanja>2026-09-20</datumUstvarjanja>
+    </kampanja>
+    
+    <kampanja id="K003">
+        <ime>Tečaji tujih jezikov</ime>
+        <cilj>LEADS</cilj>
+        <nacinDoseganjaCilja>WEBSITE_VISITS</nacinDoseganjaCilja>
+        <ciljnaLokacija>Slovenija</ciljnaLokacija>
+        <jezik>sl</jezik>
+        <dnevniProracun>15.00</dnevniProracun>
+        <strategijaPonudb>MAXIMIZE_CONVERSIONS</strategijaPonudb>
+        <status>PAUSED</status>
+        <datumUstvarjanja>2026-09-22</datumUstvarjanja>
+    </kampanja>
+
+    <kampanja id="K004">
+        <ime>Prodaja električnih koles</ime>
+        <cilj>SALES</cilj>
+        <nacinDoseganjaCilja>WEBSITE_VISITS</nacinDoseganjaCilja>
+        <ciljnaLokacija>Nemčija</ciljnaLokacija>
+        <jezik>de</jezik>
+        <dnevniProracun>80.00</dnevniProracun>
+        <strategijaPonudb>MAXIMIZE_CONVERSION_VALUE</strategijaPonudb>
+        <status>ENABLED</status>
+        <datumUstvarjanja>2026-09-25</datumUstvarjanja>
+    </kampanja>
+
+    <kampanja id="K005">
+        <ime>Zobozdravstvene storitve</ime>
+        <cilj>LEADS</cilj>
+        <nacinDoseganjaCilja>PHONE_CALLS</nacinDoseganjaCilja>
+        <ciljnaLokacija>Slovenija</ciljnaLokacija>
+        <jezik>sl</jezik>
+        <dnevniProracun>25.00</dnevniProracun>
+        <strategijaPonudb>MAXIMIZE_CONVERSIONS</strategijaPonudb>
+        <status>PAUSED</status>
+        <datumUstvarjanja>2026-09-28</datumUstvarjanja>
+    </kampanja>
+
+    <kampanja id="K006">
+        <ime>Najem avtomobilov</ime>
+        <cilj>LEADS</cilj>
+        <nacinDoseganjaCilja>WEBSITE_VISITS</nacinDoseganjaCilja>
+        <ciljnaLokacija>Hrvaška</ciljnaLokacija>
+        <jezik>hr</jezik>
+        <dnevniProracun>45.00</dnevniProracun>
+        <strategijaPonudb>MAXIMIZE_CLICKS</strategijaPonudb>
+        <status>ENABLED</status>
+        <datumUstvarjanja>2026-10-01</datumUstvarjanja>
+    </kampanja>
+
+    <kampanja id="K007">
+        <ime>Spletna trgovina s pohištvom</ime>
+        <cilj>SALES</cilj>
+        <nacinDoseganjaCilja>WEBSITE_VISITS</nacinDoseganjaCilja>
+        <ciljnaLokacija>Slovenija</ciljnaLokacija>
+        <jezik>sl</jezik>
+        <dnevniProracun>35.00</dnevniProracun>
+        <strategijaPonudb>MAXIMIZE_CONVERSION_VALUE</strategijaPonudb>
+        <status>PAUSED</status>
+        <datumUstvarjanja>2026-10-02</datumUstvarjanja>
+    </kampanja>
+
+    <kampanja id="K008">
+        <ime>Fitnes center</ime>
+        <cilj>LEADS</cilj>
+        <nacinDoseganjaCilja>PHONE_CALLS</nacinDoseganjaCilja>
+        <ciljnaLokacija>Avstrija</ciljnaLokacija>
+        <jezik>de</jezik>
+        <dnevniProracun>20.00</dnevniProracun>
+        <strategijaPonudb>MAXIMIZE_CONVERSIONS</strategijaPonudb>
+        <status>ENABLED</status>
+        <datumUstvarjanja>2026-10-03</datumUstvarjanja>
+    </kampanja>
+
+    <kampanja id="K009">
+        <ime>Prodaja kozmetičnih izdelkov</ime>
+        <cilj>SALES</cilj>
+        <nacinDoseganjaCilja>WEBSITE_VISITS</nacinDoseganjaCilja>
+        <ciljnaLokacija>Italija</ciljnaLokacija>
+        <jezik>it</jezik>
+        <dnevniProracun>60.00</dnevniProracun>
+        <strategijaPonudb>MAXIMIZE_CONVERSION_VALUE</strategijaPonudb>
+        <status>PAUSED</status>
+        <datumUstvarjanja>2026-10-04</datumUstvarjanja>
+    </kampanja>
+
+    <kampanja id="K010">
+        <ime>Računovodske storitve</ime>
+        <cilj>LEADS</cilj>
+        <nacinDoseganjaCilja>PHONE_CALLS</nacinDoseganjaCilja>
+        <ciljnaLokacija>Slovenija</ciljnaLokacija>
+        <jezik>sl</jezik>
+        <dnevniProracun>18.00</dnevniProracun>
+        <strategijaPonudb>MAXIMIZE_CONVERSIONS</strategijaPonudb>
+        <status>PAUSED</status>
+        <datumUstvarjanja>2026-10-05</datumUstvarjanja>
+    </kampanja>
+
+    <kampanja id="K011">
+        <ime>Prodaja računalniške opreme</ime>
+        <cilj>SALES</cilj>
+        <nacinDoseganjaCilja>WEBSITE_VISITS</nacinDoseganjaCilja>
+        <ciljnaLokacija>Nemčija</ciljnaLokacija>
+        <jezik>de</jezik>
+        <dnevniProracun>100.00</dnevniProracun>
+        <strategijaPonudb>MAXIMIZE_CONVERSION_VALUE</strategijaPonudb>
+        <status>ENABLED</status>
+        <datumUstvarjanja>2026-10-06</datumUstvarjanja>
+    </kampanja>
+
+    <kampanja id="K012">
+        <ime>Organizacija porok</ime>
+        <cilj>LEADS</cilj>
+        <nacinDoseganjaCilja>WEBSITE_VISITS</nacinDoseganjaCilja>
+        <ciljnaLokacija>Slovenija</ciljnaLokacija>
+        <jezik>sl</jezik>
+        <dnevniProracun>22.00</dnevniProracun>
+        <strategijaPonudb>MAXIMIZE_CONVERSIONS</strategijaPonudb>
+        <status>PAUSED</status>
+        <datumUstvarjanja>2026-10-07</datumUstvarjanja>
+    </kampanja>
+
+    <kampanja id="K013">
+        <ime>Prodaja otroških igrač</ime>
+        <cilj>SALES</cilj>
+        <nacinDoseganjaCilja>WEBSITE_VISITS</nacinDoseganjaCilja>
+        <ciljnaLokacija>Hrvaška</ciljnaLokacija>
+        <jezik>hr</jezik>
+        <dnevniProracun>28.00</dnevniProracun>
+        <strategijaPonudb>MAXIMIZE_CLICKS</strategijaPonudb>
+        <status>ENABLED</status>
+        <datumUstvarjanja>2026-10-08</datumUstvarjanja>
+    </kampanja>
+
+    <kampanja id="K014">
+        <ime>Čistilni servis</ime>
+        <cilj>LEADS</cilj>
+        <nacinDoseganjaCilja>PHONE_CALLS</nacinDoseganjaCilja>
+        <ciljnaLokacija>Slovenija</ciljnaLokacija>
+        <jezik>sl</jezik>
+        <dnevniProracun>12.00</dnevniProracun>
+        <strategijaPonudb>MAXIMIZE_CONVERSIONS</strategijaPonudb>
+        <status>PAUSED</status>
+        <datumUstvarjanja>2026-10-09</datumUstvarjanja>
+    </kampanja>
+
+    <kampanja id="K015">
+        <ime>Prodaja vrtnega orodja</ime>
+        <cilj>SALES</cilj>
+        <ciljnaLokacija>Avstrija</ciljnaLokacija>
+        <jezik>de</jezik>
+        <dnevniProracun>40.00</dnevniProracun>
+        <strategijaPonudb>MAXIMIZE_CONVERSION_VALUE</strategijaPonudb>
+        <status>PAUSED</status>
+        <datumUstvarjanja>2026-10-10</datumUstvarjanja>
+    </kampanja>
+
+</kampanje>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skupineOglasov>
+    <skupinaOglasov id="S001" kampanjaId="K001">
+        <ime>Športna oprema</ime>
+        <status>PAUSED</status>
+    </skupinaOglasov>
+
+    <skupinaOglasov id="S002" kampanjaId="K002">
+        <ime>Hotelzimmer buchen</ime>
+        <status>ENABLED</status>
+    </skupinaOglasov>
+
+    <skupinaOglasov id="S003" kampanjaId="K003">
+        <ime>Jezikovni tečaji</ime>
+        <status>PAUSED</status>
+    </skupinaOglasov>
+
+    <skupinaOglasov id="S004" kampanjaId="K004">
+        <ime>Elektrofahrräder</ime>
+        <status>ENABLED</status>
+    </skupinaOglasov>
+
+    <skupinaOglasov id="S005" kampanjaId="K005">
+        <ime>Zobozdravnik</ime>
+        <status>PAUSED</status>
+    </skupinaOglasov>
+
+    <skupinaOglasov id="S006" kampanjaId="K006">
+        <ime>Rent a car</ime>
+        <status>ENABLED</status>
+    </skupinaOglasov>
+
+    <skupinaOglasov id="S007" kampanjaId="K007">
+        <ime>Pohištvo</ime>
+        <status>PAUSED</status>
+    </skupinaOglasov>
+
+    <skupinaOglasov id="S008" kampanjaId="K008">
+        <ime>Fitnessstudio</ime>
+        <status>ENABLED</status>
+    </skupinaOglasov>
+
+    <skupinaOglasov id="S009" kampanjaId="K009">
+        <ime>Prodotti cosmetici</ime>
+        <status>PAUSED</status>
+    </skupinaOglasov>
+
+    <skupinaOglasov id="S010" kampanjaId="K010">
+        <ime>Računovodstvo</ime>
+        <status>PAUSED</status>
+    </skupinaOglasov>
+
+    <skupinaOglasov id="S011" kampanjaId="K011">
+        <ime>Computer Zubehör</ime>
+        <status>ENABLED</status>
+    </skupinaOglasov>
+
+    <skupinaOglasov id="S012" kampanjaId="K012">
+        <ime>Organizacija porok</ime>
+        <status>PAUSED</status>
+    </skupinaOglasov>
+
+    <skupinaOglasov id="S013" kampanjaId="K013">
+        <ime>Dječje igračke</ime>
+        <status>ENABLED</status>
+    </skupinaOglasov>
+
+    <skupinaOglasov id="S014" kampanjaId="K014">
+        <ime>Čistilne storitve</ime>
+        <status>PAUSED</status>
+    </skupinaOglasov>
+
+    <skupinaOglasov id="S015" kampanjaId="K015">
+        <ime>Gartenwerkzeuge</ime>
+        <status>PAUSED</status>
+    </skupinaOglasov>
+
+    <skupinaOglasov id="S016" kampanjaId="K001">
+        <ime>Fitnes pripomočki</ime>
+        <status>PAUSED</status>
+    </skupinaOglasov>
+
+    <skupinaOglasov id="S017" kampanjaId="K004">
+        <ime>E-Mountainbikes</ime>
+        <status>ENABLED</status>
+    </skupinaOglasov>
+
+    <skupinaOglasov id="S018" kampanjaId="K007">
+        <ime>Pisarniško pohištvo</ime>
+        <status>PAUSED</status>
+    </skupinaOglasov>
+
+    <skupinaOglasov id="S019" kampanjaId="K009">
+        <ime>Prodotti per capelli</ime>
+        <status>PAUSED</status>
+    </skupinaOglasov>
+
+    <skupinaOglasov id="S020" kampanjaId="K011">
+        <ime>Gaming Zubehör</ime>
+        <status>ENABLED</status>
+    </skupinaOglasov>
+</skupineOglasov>

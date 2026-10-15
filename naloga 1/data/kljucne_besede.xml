@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kljucneBesede>
+    <kljucnaBeseda id="KB001" skupinaId="S001">
+        <besedilo>športna oprema</besedilo>
+        <ujemanje>BROAD</ujemanje>
+        <povprecnaMesecnaIskanja>5400</povprecnaMesecnaIskanja>
+        <trimesečnaSprememba>12</trimesečnaSprememba>
+        <letnaSprememba>8</letnaSprememba>
+        <konkurenca>HIGH</konkurenca>
+        <ponudbaNizka>0.45</ponudbaNizka>
+        <ponudbaVisoka>1.80</ponudbaVisoka>
+    </kljucnaBeseda>
+
+    <kljucnaBeseda id="KB002" skupinaId="S001">
+        <besedilo>nakup športne opreme</besedilo>
+        <ujemanje>PHRASE</ujemanje>
+        <povprecnaMesecnaIskanja>1900</povprecnaMesecnaIskanja>
+        <trimesečnaSprememba>5</trimesečnaSprememba>
+        <letnaSprememba>11</letnaSprememba>
+        <konkurenca>MEDIUM</konkurenca>
+        <ponudbaNizka>0.35</ponudbaNizka>
+        <ponudbaVisoka>1.40</ponudbaVisoka>
+    </kljucnaBeseda>
+
+    <kljucnaBeseda id="KB003" skupinaId="S002">
+        <besedilo>hotelzimmer buchen</besedilo>
+        <ujemanje>BROAD</ujemanje>
+        <povprecnaMesecnaIskanja>12100</povprecnaMesecnaIskanja>
+        <trimesečnaSprememba>15</trimesečnaSprememba>
+        <letnaSprememba>9</letnaSprememba>
+        <konkurenca>HIGH</konkurenca>
+        <ponudbaNizka>0.80</ponudbaNizka>
+        <ponudbaVisoka>3.20</ponudbaVisoka>
+    </kljucnaBeseda>
+
+    <kljucnaBeseda id="KB004" skupinaId="S002">
+        <besedilo>hotel online buchen</besedilo>
+        <ujemanje>PHRASE</ujemanje>
+        <povprecnaMesecnaIskanja>6600</povprecnaMesecnaIskanja>
+        <trimesečnaSprememba>8</trimesečnaSprememba>
+        <letnaSprememba>12</letnaSprememba>
+        <konkurenca>HIGH</konkurenca>
+        <ponudbaNizka>0.95</ponudbaNizka>
+        <ponudbaVisoka>3.60</ponudbaVisoka>
+    </kljucnaBeseda>
+
+    <kljucnaBeseda id="KB005" skupinaId="S003">
+        <besedilo>tečaj angleščine</besedilo>
+        <ujemanje>PHRASE</ujemanje>
+        <povprecnaMesecnaIskanja>2900</povprecnaMesecnaIskanja>
+        <trimesečnaSprememba>20</trimesečnaSprememba>
+        <letnaSprememba>14</letnaSprememba>
+        <konkurenca>MEDIUM</konkurenca>
+        <ponudbaNizka>0.40</ponudbaNizka>
+        <ponudbaVisoka>1.65</ponudbaVisoka>
+    </kljucnaBeseda>
+
+    <kljucnaBeseda id="KB006" skupinaId="S003">
+        <besedilo>tečaji tujih jezikov</besedilo>
+        <ujemanje>EXACT</ujemanje>
+        <povprecnaMesecnaIskanja>1300</povprecnaMesecnaIskanja>
+        <trimesečnaSprememba>10</trimesečnaSprememba>
+        <letnaSprememba>7</letnaSprememba>
+        <konkurenca>LOW</konkurenca>
+        <ponudbaNizka>0.30</ponudbaNizka>
+        <ponudbaVisoka>1.20</ponudbaVisoka>
+    </kljucnaBeseda>
+
+    <kljucnaBeseda id="KB007" skupinaId="S004">
+        <besedilo>e bike kaufen</besedilo>
+        <ujemanje>BROAD</ujemanje>
+        <povprecnaMesecnaIskanja>18100</povprecnaMesecnaIskanja>
+        <trimesečnaSprememba>25</trimesečnaSprememba>
+        <letnaSprememba>18</letnaSprememba>
+        <konkurenca>HIGH</konkurenca>
+        <ponudbaNizka>0.90</ponudbaNizka>
+        <ponudbaVisoka>3.80</ponudbaVisoka>
+    </kljucnaBeseda>
+
+    <kljucnaBeseda id="KB008" skupinaId="S004">
+        <besedilo>elektrofahrrad online kaufen</besedilo>
+        <ujemanje>EXACT</ujemanje>
+        <povprecnaMesecnaIskanja>4400</povprecnaMesecnaIskanja>
+        <trimesečnaSprememba>16</trimesečnaSprememba>
+        <letnaSprememba>21</letnaSprememba>
+        <konkurenca>HIGH</konkurenca>
+        <ponudbaNizka>1.10</ponudbaNizka>
+        <ponudbaVisoka>4.20</ponudbaVisoka>
+    </kljucnaBeseda>
+
+    <kljucnaBeseda id="KB009" skupinaId="S005">
+        <besedilo>zobozdravnik</besedilo>
+        <ujemanje>BROAD</ujemanje>
+        <povprecnaMesecnaIskanja>9900</povprecnaMesecnaIskanja>
+        <trimesečnaSprememba>3</trimesečnaSprememba>
+        <letnaSprememba>5</letnaSprememba>
+        <konkurenca>HIGH</konkurenca>
+        <ponudbaNizka>0.75</ponudbaNizka>
+        <ponudbaVisoka>2.90</ponudbaVisoka>
+    </kljucnaBeseda>
+
+    <kljucnaBeseda id="KB010" skupinaId="S005">
+        <besedilo>zobozdravstvene storitve</besedilo>
+        <ujemanje>PHRASE</ujemanje>
+        <povprecnaMesecnaIskanja>1600</povprecnaMesecnaIskanja>
+        <trimesečnaSprememba>6</trimesečnaSprememba>
+        <letnaSprememba>8</letnaSprememba>
+        <konkurenca>MEDIUM</konkurenca>
+        <ponudbaNizka>0.55</ponudbaNizka>
+        <ponudbaVisoka>2.10</ponudbaVisoka>
+    </kljucnaBeseda>
+
+    <kljucnaBeseda id="KB011" skupinaId="S006">
+        <besedilo>rent a car hrvatska</besedilo>
+        <ujemanje>PHRASE</ujemanje>
+        <povprecnaMesecnaIskanja>8100</povprecnaMesecnaIskanja>
+        <trimesečnaSprememba>30</trimesečnaSprememba>
+        <letnaSprememba>16</letnaSprememba>
+        <konkurenca>HIGH</konkurenca>
+        <ponudbaNizka>0.65</ponudbaNizka>
+        <ponudbaVisoka>2.70</ponudbaVisoka>
+    </kljucnaBeseda>
+
+    <kljucnaBeseda id="KB012" skupinaId="S006">
+        <besedilo>najam automobila</besedilo>
+        <ujemanje>EXACT</ujemanje>
+        <povprecnaMesecnaIskanja>5400</povprecnaMesecnaIskanja>
+        <trimesečnaSprememba>18</trimesečnaSprememba>
+        <letnaSprememba>12</letnaSprememba>
+        <konkurenca>HIGH</konkurenca>
+        <ponudbaNizka>0.70</ponudbaNizka>
+        <ponudbaVisoka>3.00</ponudbaVisoka>
+    </kljucnaBeseda>
+
+    <kljucnaBeseda id="KB013" skupinaId="S007">
+        <besedilo>pohištvo online</besedilo>
+        <ujemanje>BROAD</ujemanje>
+        <povprecnaMesecnaIskanja>6600</povprecnaMesecnaIskanja>
+        <trimesečnaSprememba>7</trimesečnaSprememba>
+        <letnaSprememba>10</letnaSprememba>
+        <konkurenca>HIGH</konkurenca>
+        <ponudbaNizka>0.45</ponudbaNizka>
+        <ponudbaVisoka>1.90</ponudbaVisoka>
+    </kljucnaBeseda>
+
+    <kljucnaBeseda id="KB014" skupinaId="S007">
+        <besedilo>spletna trgovina pohištvo</besedilo>
+        <ujemanje>PHRASE</ujemanje>
+        <povprecnaMesecnaIskanja>2400</povprecnaMesecnaIskanja>
+        <trimesečnaSprememba>11</trimesečnaSprememba>
+        <letnaSprememba>9</letnaSprememba>
+        <konkurenca>MEDIUM</konkurenca>
+        <ponudbaNizka>0.35</ponudbaNizka>
+        <ponudbaVisoka>1.50</ponudbaVisoka>
+    </kljucnaBeseda>
+
+    <kljucnaBeseda id="KB015" skupinaId="S008">
+        <besedilo>fitnessstudio</besedilo>
+        <ujemanje>BROAD</ujemanje>
+        <povprecnaMesecnaIskanja>14800</povprecnaMesecnaIskanja>
+        <trimesečnaSprememba>9</trimesečnaSprememba>
+        <letnaSprememba>13</letnaSprememba>
+        <konkurenca>MEDIUM</konkurenca>
+        <ponudbaNizka>0.50</ponudbaNizka>
+        <ponudbaVisoka>2.00</ponudbaVisoka>
+    </kljucnaBeseda>
+
+    <kljucnaBeseda id="KB016" skupinaId="S008">
+        <besedilo>fitnessstudio mitgliedschaft</besedilo>
+        <ujemanje>EXACT</ujemanje>
+        <povprecnaMesecnaIskanja>2900</povprecnaMesecnaIskanja>
+        <trimesečnaSprememba>14</trimesečnaSprememba>
+        <letnaSprememba>10</letnaSprememba>
+        <konkurenca>HIGH</konkurenca>
+        <ponudbaNizka>0.65</ponudbaNizka>
+        <ponudbaVisoka>2.50</ponudbaVisoka>
+    </kljucnaBeseda>
+
+    <kljucnaBeseda id="KB017" skupinaId="S009">
+        <besedilo>cosmetici online</besedilo>
+        <ujemanje>PHRASE</ujemanje>
+        <povprecnaMesecnaIskanja>9900</povprecnaMesecnaIskanja>
+        <trimesečnaSprememba>12</trimesečnaSprememba>
+        <letnaSprememba>15</letnaSprememba>
+        <konkurenca>HIGH</konkurenca>
+        <ponudbaNizka>0.55</ponudbaNizka>
+        <ponudbaVisoka>2.30</ponudbaVisoka>
+    </kljucnaBeseda>
+
+    <kljucnaBeseda id="KB018" skupinaId="S009">
+        <besedilo>prodotti skincare</besedilo>
+        <ujemanje>BROAD</ujemanje>
+        <povprecnaMesecnaIskanja>5400</povprecnaMesecnaIskanja>
+        <trimesečnaSprememba>19</trimesečnaSprememba>
+        <letnaSprememba>22</letnaSprememba>
+        <konkurenca>HIGH</konkurenca>
+        <ponudbaNizka>0.60</ponudbaNizka>
+        <ponudbaVisoka>2.60</ponudbaVisoka>
+    </kljucnaBeseda>
+
+    <kljucnaBeseda id="KB019" skupinaId="S010">
+        <besedilo>računovodski servis</besedilo>
+        <ujemanje>PHRASE</ujemanje>
+        <povprecnaMesecnaIskanja>4400</povprecnaMesecnaIskanja>
+        <trimesečnaSprememba>4</trimesečnaSprememba>
+        <letnaSprememba>6</letnaSprememba>
+        <konkurenca>HIGH</konkurenca>
+        <ponudbaNizka>0.85</ponudbaNizka>
+        <ponudbaVisoka>3.40</ponudbaVisoka>
+    </kljucnaBeseda>
+
+    <kljucnaBeseda id="KB020" skupinaId="S010">
+        <besedilo>računovodske storitve</besedilo>
+        <ujemanje>EXACT</ujemanje>
+        <povprecnaMesecnaIskanja>1900</povprecnaMesecnaIskanja>
+        <trimesečnaSprememba>2</trimesečnaSprememba>
+        <letnaSprememba>5</letnaSprememba>
+        <konkurenca>MEDIUM</konkurenca>
+        <ponudbaNizka>0.70</ponudbaNizka>
+        <ponudbaVisoka>2.80</ponudbaVisoka>
+    </kljucnaBeseda>
+
+    <kljucnaBeseda id="KB021" skupinaId="S011">
+        <besedilo>computer zubehör kaufen</besedilo>
+        <ujemanje>BROAD</ujemanje>
+        <povprecnaMesecnaIskanja>12100</povprecnaMesecnaIskanja>
+        <trimesečnaSprememba>11</trimesečnaSprememba>
+        <letnaSprememba>17</letnaSprememba>
+        <konkurenca>HIGH</konkurenca>
+        <ponudbaNizka>0.65</ponudbaNizka>
+        <ponudbaVisoka>2.70</ponudbaVisoka>
+    </kljucnaBeseda>
+
+    <kljucnaBeseda id="KB022" skupinaId="S011">
+        <besedilo>pc hardware online shop</besedilo>
+        <ujemanje>EXACT</ujemanje>
+        <povprecnaMesecnaIskanja>3600</povprecnaMesecnaIskanja>
+        <trimesečnaSprememba>8</trimesečnaSprememba>
+        <letnaSprememba>12</letnaSprememba>
+        <konkurenca>HIGH</konkurenca>
+        <ponudbaNizka>0.75</ponudbaNizka>
+        <ponudbaVisoka>3.10</ponudbaVisoka>
+    </kljucnaBeseda>
+
+    <kljucnaBeseda id="KB023" skupinaId="S012">
+        <besedilo>organizacija poroke</besedilo>
+        <ujemanje>PHRASE</ujemanje>
+        <povprecnaMesecnaIskanja>2400</povprecnaMesecnaIskanja>
+        <trimesečnaSprememba>22</trimesečnaSprememba>
+        <letnaSprememba>18</letnaSprememba>
+        <konkurenca>MEDIUM</konkurenca>
+        <ponudbaNizka>0.45</ponudbaNizka>
+        <ponudbaVisoka>1.85</ponudbaVisoka>
+    </kljucnaBeseda>
+
+    <kljucnaBeseda id="KB024" skupinaId="S012">
+        <besedilo>poročni organizator</besedilo>
+        <ujemanje>EXACT</ujemanje>
+        <povprecnaMesecnaIskanja>880</povprecnaMesecnaIskanja>
+        <trimesečnaSprememba>17</trimesečnaSprememba>
+        <letnaSprememba>13</letnaSprememba>
+        <konkurenca>LOW</konkurenca>
+        <ponudbaNizka>0.35</ponudbaNizka>
+        <ponudbaVisoka>1.45</ponudbaVisoka>
+    </kljucnaBeseda>
+
+    <kljucnaBeseda id="KB025" skupinaId="S013">
+        <besedilo>dječje igračke</besedilo>
+        <ujemanje>BROAD</ujemanje>
+        <povprecnaMesecnaIskanja>8100</povprecnaMesecnaIskanja>
+        <trimesečnaSprememba>13</trimesečnaSprememba>
+        <letnaSprememba>10</letnaSprememba>
+        <konkurenca>HIGH</konkurenca>
+        <ponudbaNizka>0.40</ponudbaNizka>
+        <ponudbaVisoka>1.70</ponudbaVisoka>
+    </kljucnaBeseda>
+
+    <kljucnaBeseda id="KB026" skupinaId="S013">
+        <besedilo>kupnja igračaka online</besedilo>
+        <ujemanje>PHRASE</ujemanje>
+        <povprecnaMesecnaIskanja>2900</povprecnaMesecnaIskanja>
+        <trimesečnaSprememba>9</trimesečnaSprememba>
+        <letnaSprememba>14</letnaSprememba>
+        <konkurenca>MEDIUM</konkurenca>
+        <ponudbaNizka>0.35</ponudbaNizka>
+        <ponudbaVisoka>1.45</ponudbaVisoka>
+    </kljucnaBeseda>
+
+    <kljucnaBeseda id="KB027" skupinaId="S014">
+        <besedilo>čistilni servis</besedilo>
+        <ujemanje>PHRASE</ujemanje>
+        <povprecnaMesecnaIskanja>3600</povprecnaMesecnaIskanja>
+        <trimesečnaSprememba>6</trimesečnaSprememba>
+        <letnaSprememba>8</letnaSprememba>
+        <konkurenca>MEDIUM</konkurenca>
+        <ponudbaNizka>0.50</ponudbaNizka>
+        <ponudbaVisoka>2.10</ponudbaVisoka>
+    </kljucnaBeseda>
+
+    <kljucnaBeseda id="KB028" skupinaId="S014">
+        <besedilo>čiščenje poslovnih prostorov</besedilo>
+        <ujemanje>EXACT</ujemanje>
+        <povprecnaMesecnaIskanja>1300</povprecnaMesecnaIskanja>
+        <trimesečnaSprememba>4</trimesečnaSprememba>
+        <letnaSprememba>11</letnaSprememba>
+        <konkurenca>LOW</konkurenca>
+        <ponudbaNizka>0.40</ponudbaNizka>
+        <ponudbaVisoka>1.75</ponudbaVisoka>
+    </kljucnaBeseda>
+
+    <kljucnaBeseda id="KB029" skupinaId="S015">
+        <besedilo>gartenwerkzeuge kaufen</besedilo>
+        <ujemanje>BROAD</ujemanje>
+        <povprecnaMesecnaIskanja>6600</povprecnaMesecnaIskanja>
+        <trimesečnaSprememba>24</trimesečnaSprememba>
+        <letnaSprememba>16</letnaSprememba>
+        <konkurenca>HIGH</konkurenca>
+        <ponudbaNizka>0.55</ponudbaNizka>
+        <ponudbaVisoka>2.20</ponudbaVisoka>
+    </kljucnaBeseda>
+
+    <kljucnaBeseda id="KB030" skupinaId="S015">
+        <besedilo>gartengeräte online shop</besedilo>
+        <ujemanje>PHRASE</ujemanje>
+        <povprecnaMesecnaIskanja>2400</povprecnaMesecnaIskanja>
+        <trimesečnaSprememba>18</trimesečnaSprememba>
+        <letnaSprememba>12</letnaSprememba>
+        <konkurenca>MEDIUM</konkurenca>
+        <ponudbaNizka>0.45</ponudbaNizka>
+        <ponudbaVisoka>1.85</ponudbaVisoka>
+    </kljucnaBeseda>
+
+    <kljucnaBeseda id="KB031" skupinaId="S016">
+        <besedilo>fitnes pripomočki</besedilo>
+        <ujemanje>BROAD</ujemanje>
+        <povprecnaMesecnaIskanja>2900</povprecnaMesecnaIskanja>
+        <trimesečnaSprememba>14</trimesečnaSprememba>
+        <letnaSprememba>9</letnaSprememba>
+        <konkurenca>MEDIUM</konkurenca>
+        <ponudbaNizka>0.35</ponudbaNizka>
+        <ponudbaVisoka>1.55</ponudbaVisoka>
+    </kljucnaBeseda>
+
+    <kljucnaBeseda id="KB032" skupinaId="S016">
+        <besedilo>pripomočki za vadbo doma</besedilo>
+        <ujemanje>PHRASE</ujemanje>
+        <povprecnaMesecnaIskanja>1600</povprecnaMesecnaIskanja>
+        <trimesečnaSprememba>21</trimesečnaSprememba>
+        <letnaSprememba>15</letnaSprememba>
+        <konkurenca>LOW</konkurenca>
+        <ponudbaNizka>0.25</ponudbaNizka>
+        <ponudbaVisoka>1.20</ponudbaVisoka>
+    </kljucnaBeseda>
+
+    <kljucnaBeseda id="KB033" skupinaId="S017">
+        <besedilo>e mountainbike kaufen</besedilo>
+        <ujemanje>PHRASE</ujemanje>
+        <povprecnaMesecnaIskanja>8100</povprecnaMesecnaIskanja>
+        <trimesečnaSprememba>28</trimesečnaSprememba>
+        <letnaSprememba>19</letnaSprememba>
+        <konkurenca>HIGH</konkurenca>
+        <ponudbaNizka>1.05</ponudbaNizka>
+        <ponudbaVisoka>4.10</ponudbaVisoka>
+    </kljucnaBeseda>
+
+    <kljucnaBeseda id="KB034" skupinaId="S017">
+        <besedilo>elektro mountainbike</besedilo>
+        <ujemanje>EXACT</ujemanje>
+        <povprecnaMesecnaIskanja>5400</povprecnaMesecnaIskanja>
+        <trimesečnaSprememba>17</trimesečnaSprememba>
+        <letnaSprememba>23</letnaSprememba>
+        <konkurenca>HIGH</konkurenca>
+        <ponudbaNizka>0.95</ponudbaNizka>
+        <ponudbaVisoka>3.75</ponudbaVisoka>
+    </kljucnaBeseda>
+
+    <kljucnaBeseda id="KB035" skupinaId="S018">
+        <besedilo>pisarniško pohištvo</besedilo>
+        <ujemanje>BROAD</ujemanje>
+        <povprecnaMesecnaIskanja>3600</povprecnaMesecnaIskanja>
+        <trimesečnaSprememba>6</trimesečnaSprememba>
+        <letnaSprememba>8</letnaSprememba>
+        <konkurenca>MEDIUM</konkurenca>
+        <ponudbaNizka>0.50</ponudbaNizka>
+        <ponudbaVisoka>2.10</ponudbaVisoka>
+    </kljucnaBeseda>
+
+    <kljucnaBeseda id="KB036" skupinaId="S018">
+        <besedilo>nakup pisarniških stolov</besedilo>
+        <ujemanje>EXACT</ujemanje>
+        <povprecnaMesecnaIskanja>1300</povprecnaMesecnaIskanja>
+        <trimesečnaSprememba>9</trimesečnaSprememba>
+        <letnaSprememba>12</letnaSprememba>
+        <konkurenca>HIGH</konkurenca>
+        <ponudbaNizka>0.60</ponudbaNizka>
+        <ponudbaVisoka>2.40</ponudbaVisoka>
+    </kljucnaBeseda>
+
+    <kljucnaBeseda id="KB037" skupinaId="S019">
+        <besedilo>prodotti per capelli</besedilo>
+        <ujemanje>BROAD</ujemanje>
+        <povprecnaMesecnaIskanja>8100</povprecnaMesecnaIskanja>
+        <trimesečnaSprememba>13</trimesečnaSprememba>
+        <letnaSprememba>17</letnaSprememba>
+        <konkurenca>HIGH</konkurenca>
+        <ponudbaNizka>0.50</ponudbaNizka>
+        <ponudbaVisoka>2.15</ponudbaVisoka>
+    </kljucnaBeseda>
+
+    <kljucnaBeseda id="KB038" skupinaId="S019">
+        <besedilo>shampoo professionale online</besedilo>
+        <ujemanje>PHRASE</ujemanje>
+        <povprecnaMesecnaIskanja>2900</povprecnaMesecnaIskanja>
+        <trimesečnaSprememba>16</trimesečnaSprememba>
+        <letnaSprememba>20</letnaSprememba>
+        <konkurenca>MEDIUM</konkurenca>
+        <ponudbaNizka>0.40</ponudbaNizka>
+        <ponudbaVisoka>1.85</ponudbaVisoka>
+    </kljucnaBeseda>
+
+    <kljucnaBeseda id="KB039" skupinaId="S020">
+        <besedilo>gaming zubehör</besedilo>
+        <ujemanje>BROAD</ujemanje>
+        <povprecnaMesecnaIskanja>9900</povprecnaMesecnaIskanja>
+        <trimesečnaSprememba>18</trimesečnaSprememba>
+        <letnaSprememba>14</letnaSprememba>
+        <konkurenca>HIGH</konkurenca>
+        <ponudbaNizka>0.65</ponudbaNizka>
+        <ponudbaVisoka>2.75</ponudbaVisoka>
+    </kljucnaBeseda>
+
+    <kljucnaBeseda id="KB040" skupinaId="S020">
+        <besedilo>gaming tastatur kaufen</besedilo>
+        <ujemanje>EXACT</ujemanje>
+        <povprecnaMesecnaIskanja>4400</povprecnaMesecnaIskanja>
+        <trimesečnaSprememba>11</trimesečnaSprememba>
+        <letnaSprememba>16</letnaSprememba>
+        <konkurenca>HIGH</konkurenca>
+        <ponudbaNizka>0.75</ponudbaNizka>
+        <ponudbaVisoka>3.00</ponudbaVisoka>
+    </kljucnaBeseda>
+</kljucneBesede>

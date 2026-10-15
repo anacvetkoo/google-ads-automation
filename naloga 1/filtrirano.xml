@@ -1,0 +1,416 @@
+<?xml version='1.0' encoding='utf-8'?>
+<kampanje>
+    <kampanja>
+        <id>K002</id>
+        <ime>Rezervacije hotelskih sob</ime>
+        <cilj>LEADS</cilj>
+        <nacinDoseganjaCilja>WEBSITE_VISITS</nacinDoseganjaCilja>
+        <ciljnaLokacija>Avstrija</ciljnaLokacija>
+        <jezik>de</jezik>
+        <dnevniProracun>50.0</dnevniProracun>
+        <strategijaPonudb>MAXIMIZE_CONVERSIONS</strategijaPonudb>
+        <status>ENABLED</status>
+        <datumUstvarjanja>2026-09-20</datumUstvarjanja>
+        <skupineOglasov>
+            <skupinaOglasov>
+                <id>S002</id>
+                <kampanjaId>K002</kampanjaId>
+                <ime>Hotelzimmer buchen</ime>
+                <status>ENABLED</status>
+                <kljucneBesede>
+                    <kljucnaBeseda>
+                        <id>KB003</id>
+                        <skupinaId>S002</skupinaId>
+                        <besedilo>hotelzimmer buchen</besedilo>
+                        <ujemanje>BROAD</ujemanje>
+                        <povprecnaMesecnaIskanja>12100</povprecnaMesecnaIskanja>
+                        <trimesečnaSprememba>15</trimesečnaSprememba>
+                        <letnaSprememba>9</letnaSprememba>
+                        <konkurenca>HIGH</konkurenca>
+                        <ponudbaNizka>0.8</ponudbaNizka>
+                        <ponudbaVisoka>3.2</ponudbaVisoka>
+                    </kljucnaBeseda>
+                    <kljucnaBeseda>
+                        <id>KB004</id>
+                        <skupinaId>S002</skupinaId>
+                        <besedilo>hotel online buchen</besedilo>
+                        <ujemanje>PHRASE</ujemanje>
+                        <povprecnaMesecnaIskanja>6600</povprecnaMesecnaIskanja>
+                        <trimesečnaSprememba>8</trimesečnaSprememba>
+                        <letnaSprememba>12</letnaSprememba>
+                        <konkurenca>HIGH</konkurenca>
+                        <ponudbaNizka>0.95</ponudbaNizka>
+                        <ponudbaVisoka>3.6</ponudbaVisoka>
+                    </kljucnaBeseda>
+                </kljucneBesede>
+                <oglasi>
+                    <oglas>
+                        <id>O002</id>
+                        <skupinaId>S002</skupinaId>
+                        <koncniUrl>https://example.com/hotelzimmer</koncniUrl>
+                        <prikaznaPot1>hotel</prikaznaPot1>
+                        <prikaznaPot2 />
+                        <naslovi>
+                            <naslov>Hotelzimmer online buchen</naslov>
+                            <naslov>Finden Sie Ihr Hotelzimmer</naslov>
+                            <naslov>Jetzt Hotelzimmer entdecken</naslov>
+                        </naslovi>
+                        <opisi>
+                            <opis>Entdecken Sie passende Hotelzimmer und planen Sie Ihren nächsten Aufenthalt.</opis>
+                            <opis>Vergleichen Sie Zimmerangebote und buchen Sie Ihren Aufenthalt bequem online.</opis>
+                        </opisi>
+                        <status>ENABLED</status>
+                    </oglas>
+                </oglasi>
+            </skupinaOglasov>
+        </skupineOglasov>
+    </kampanja>
+    <kampanja>
+        <id>K004</id>
+        <ime>Prodaja električnih koles</ime>
+        <cilj>SALES</cilj>
+        <nacinDoseganjaCilja>WEBSITE_VISITS</nacinDoseganjaCilja>
+        <ciljnaLokacija>Nemčija</ciljnaLokacija>
+        <jezik>de</jezik>
+        <dnevniProracun>80.0</dnevniProracun>
+        <strategijaPonudb>MAXIMIZE_CONVERSION_VALUE</strategijaPonudb>
+        <status>ENABLED</status>
+        <datumUstvarjanja>2026-09-25</datumUstvarjanja>
+        <skupineOglasov>
+            <skupinaOglasov>
+                <id>S004</id>
+                <kampanjaId>K004</kampanjaId>
+                <ime>Elektrofahrräder</ime>
+                <status>ENABLED</status>
+                <kljucneBesede>
+                    <kljucnaBeseda>
+                        <id>KB007</id>
+                        <skupinaId>S004</skupinaId>
+                        <besedilo>e bike kaufen</besedilo>
+                        <ujemanje>BROAD</ujemanje>
+                        <povprecnaMesecnaIskanja>18100</povprecnaMesecnaIskanja>
+                        <trimesečnaSprememba>25</trimesečnaSprememba>
+                        <letnaSprememba>18</letnaSprememba>
+                        <konkurenca>HIGH</konkurenca>
+                        <ponudbaNizka>0.9</ponudbaNizka>
+                        <ponudbaVisoka>3.8</ponudbaVisoka>
+                    </kljucnaBeseda>
+                    <kljucnaBeseda>
+                        <id>KB008</id>
+                        <skupinaId>S004</skupinaId>
+                        <besedilo>elektrofahrrad online kaufen</besedilo>
+                        <ujemanje>EXACT</ujemanje>
+                        <povprecnaMesecnaIskanja>4400</povprecnaMesecnaIskanja>
+                        <trimesečnaSprememba>16</trimesečnaSprememba>
+                        <letnaSprememba>21</letnaSprememba>
+                        <konkurenca>HIGH</konkurenca>
+                        <ponudbaNizka>1.1</ponudbaNizka>
+                        <ponudbaVisoka>4.2</ponudbaVisoka>
+                    </kljucnaBeseda>
+                </kljucneBesede>
+                <oglasi>
+                    <oglas>
+                        <id>O004</id>
+                        <skupinaId>S004</skupinaId>
+                        <koncniUrl>https://example.com/elektrofahrrader</koncniUrl>
+                        <prikaznaPot1>e-bikes</prikaznaPot1>
+                        <prikaznaPot2>kaufen</prikaznaPot2>
+                        <naslovi>
+                            <naslov>Elektrofahrräder kaufen</naslov>
+                            <naslov>Entdecken Sie unsere E-Bikes</naslov>
+                            <naslov>Ihr neues E-Bike wartet</naslov>
+                        </naslovi>
+                        <opisi>
+                            <opis>Entdecken Sie Elektrofahrräder für Alltag, Freizeit und längere Touren.</opis>
+                            <opis>Finden Sie das passende E-Bike und entdecken Sie unser Sortiment online.</opis>
+                        </opisi>
+                        <status>ENABLED</status>
+                    </oglas>
+                </oglasi>
+            </skupinaOglasov>
+            <skupinaOglasov>
+                <id>S017</id>
+                <kampanjaId>K004</kampanjaId>
+                <ime>E-Mountainbikes</ime>
+                <status>ENABLED</status>
+                <kljucneBesede>
+                    <kljucnaBeseda>
+                        <id>KB033</id>
+                        <skupinaId>S017</skupinaId>
+                        <besedilo>e mountainbike kaufen</besedilo>
+                        <ujemanje>PHRASE</ujemanje>
+                        <povprecnaMesecnaIskanja>8100</povprecnaMesecnaIskanja>
+                        <trimesečnaSprememba>28</trimesečnaSprememba>
+                        <letnaSprememba>19</letnaSprememba>
+                        <konkurenca>HIGH</konkurenca>
+                        <ponudbaNizka>1.05</ponudbaNizka>
+                        <ponudbaVisoka>4.1</ponudbaVisoka>
+                    </kljucnaBeseda>
+                    <kljucnaBeseda>
+                        <id>KB034</id>
+                        <skupinaId>S017</skupinaId>
+                        <besedilo>elektro mountainbike</besedilo>
+                        <ujemanje>EXACT</ujemanje>
+                        <povprecnaMesecnaIskanja>5400</povprecnaMesecnaIskanja>
+                        <trimesečnaSprememba>17</trimesečnaSprememba>
+                        <letnaSprememba>23</letnaSprememba>
+                        <konkurenca>HIGH</konkurenca>
+                        <ponudbaNizka>0.95</ponudbaNizka>
+                        <ponudbaVisoka>3.75</ponudbaVisoka>
+                    </kljucnaBeseda>
+                </kljucneBesede>
+                <oglasi>
+                    <oglas>
+                        <id>O017</id>
+                        <skupinaId>S017</skupinaId>
+                        <koncniUrl>https://example.com/e-mountainbikes</koncniUrl>
+                        <prikaznaPot1>e-mtb</prikaznaPot1>
+                        <prikaznaPot2 />
+                        <naslovi>
+                            <naslov>E-Mountainbikes entdecken</naslov>
+                            <naslov>Elektrische Mountainbikes</naslov>
+                            <naslov>Finden Sie Ihr neues E-MTB</naslov>
+                        </naslovi>
+                        <opisi>
+                            <opis>Entdecken Sie elektrische Mountainbikes für Touren und Fahrten im Gelände.</opis>
+                            <opis>Vergleichen Sie verschiedene E-MTB Modelle und finden Sie das passende Fahrrad.</opis>
+                        </opisi>
+                        <status>ENABLED</status>
+                    </oglas>
+                </oglasi>
+            </skupinaOglasov>
+        </skupineOglasov>
+    </kampanja>
+    <kampanja>
+        <id>K009</id>
+        <ime>Prodaja kozmetičnih izdelkov</ime>
+        <cilj>SALES</cilj>
+        <nacinDoseganjaCilja>WEBSITE_VISITS</nacinDoseganjaCilja>
+        <ciljnaLokacija>Italija</ciljnaLokacija>
+        <jezik>it</jezik>
+        <dnevniProracun>60.0</dnevniProracun>
+        <strategijaPonudb>MAXIMIZE_CONVERSION_VALUE</strategijaPonudb>
+        <status>PAUSED</status>
+        <datumUstvarjanja>2026-10-04</datumUstvarjanja>
+        <skupineOglasov>
+            <skupinaOglasov>
+                <id>S009</id>
+                <kampanjaId>K009</kampanjaId>
+                <ime>Prodotti cosmetici</ime>
+                <status>PAUSED</status>
+                <kljucneBesede>
+                    <kljucnaBeseda>
+                        <id>KB017</id>
+                        <skupinaId>S009</skupinaId>
+                        <besedilo>cosmetici online</besedilo>
+                        <ujemanje>PHRASE</ujemanje>
+                        <povprecnaMesecnaIskanja>9900</povprecnaMesecnaIskanja>
+                        <trimesečnaSprememba>12</trimesečnaSprememba>
+                        <letnaSprememba>15</letnaSprememba>
+                        <konkurenca>HIGH</konkurenca>
+                        <ponudbaNizka>0.55</ponudbaNizka>
+                        <ponudbaVisoka>2.3</ponudbaVisoka>
+                    </kljucnaBeseda>
+                    <kljucnaBeseda>
+                        <id>KB018</id>
+                        <skupinaId>S009</skupinaId>
+                        <besedilo>prodotti skincare</besedilo>
+                        <ujemanje>BROAD</ujemanje>
+                        <povprecnaMesecnaIskanja>5400</povprecnaMesecnaIskanja>
+                        <trimesečnaSprememba>19</trimesečnaSprememba>
+                        <letnaSprememba>22</letnaSprememba>
+                        <konkurenca>HIGH</konkurenca>
+                        <ponudbaNizka>0.6</ponudbaNizka>
+                        <ponudbaVisoka>2.6</ponudbaVisoka>
+                    </kljucnaBeseda>
+                </kljucneBesede>
+                <oglasi>
+                    <oglas>
+                        <id>O009</id>
+                        <skupinaId>S009</skupinaId>
+                        <koncniUrl>https://example.com/cosmetici</koncniUrl>
+                        <prikaznaPot1 />
+                        <prikaznaPot2 />
+                        <naslovi>
+                            <naslov>Cosmetici online</naslov>
+                            <naslov>Scopri i nostri cosmetici</naslov>
+                            <naslov>Acquista prodotti di bellezza</naslov>
+                        </naslovi>
+                        <opisi>
+                            <opis>Scopri una selezione di cosmetici e prodotti per la tua routine di bellezza.</opis>
+                            <opis>Esplora il nostro assortimento e scegli i prodotti più adatti alle tue esigenze.</opis>
+                        </opisi>
+                        <status>PAUSED</status>
+                    </oglas>
+                </oglasi>
+            </skupinaOglasov>
+            <skupinaOglasov>
+                <id>S019</id>
+                <kampanjaId>K009</kampanjaId>
+                <ime>Prodotti per capelli</ime>
+                <status>PAUSED</status>
+                <kljucneBesede>
+                    <kljucnaBeseda>
+                        <id>KB037</id>
+                        <skupinaId>S019</skupinaId>
+                        <besedilo>prodotti per capelli</besedilo>
+                        <ujemanje>BROAD</ujemanje>
+                        <povprecnaMesecnaIskanja>8100</povprecnaMesecnaIskanja>
+                        <trimesečnaSprememba>13</trimesečnaSprememba>
+                        <letnaSprememba>17</letnaSprememba>
+                        <konkurenca>HIGH</konkurenca>
+                        <ponudbaNizka>0.5</ponudbaNizka>
+                        <ponudbaVisoka>2.15</ponudbaVisoka>
+                    </kljucnaBeseda>
+                    <kljucnaBeseda>
+                        <id>KB038</id>
+                        <skupinaId>S019</skupinaId>
+                        <besedilo>shampoo professionale online</besedilo>
+                        <ujemanje>PHRASE</ujemanje>
+                        <povprecnaMesecnaIskanja>2900</povprecnaMesecnaIskanja>
+                        <trimesečnaSprememba>16</trimesečnaSprememba>
+                        <letnaSprememba>20</letnaSprememba>
+                        <konkurenca>MEDIUM</konkurenca>
+                        <ponudbaNizka>0.4</ponudbaNizka>
+                        <ponudbaVisoka>1.85</ponudbaVisoka>
+                    </kljucnaBeseda>
+                </kljucneBesede>
+                <oglasi>
+                    <oglas>
+                        <id>O019</id>
+                        <skupinaId>S019</skupinaId>
+                        <koncniUrl>https://example.com/prodotti-capelli</koncniUrl>
+                        <prikaznaPot1>capelli</prikaznaPot1>
+                        <prikaznaPot2>prodotti</prikaznaPot2>
+                        <naslovi>
+                            <naslov>Prodotti per capelli online</naslov>
+                            <naslov>Scopri la cura dei capelli</naslov>
+                            <naslov>Shampoo e prodotti capelli</naslov>
+                        </naslovi>
+                        <opisi>
+                            <opis>Scopri shampoo e prodotti dedicati alla cura dei capelli per ogni esigenza.</opis>
+                            <opis>Esplora la nostra selezione e trova i prodotti giusti per la tua routine.</opis>
+                        </opisi>
+                        <status>PAUSED</status>
+                    </oglas>
+                </oglasi>
+            </skupinaOglasov>
+        </skupineOglasov>
+    </kampanja>
+    <kampanja>
+        <id>K011</id>
+        <ime>Prodaja računalniške opreme</ime>
+        <cilj>SALES</cilj>
+        <nacinDoseganjaCilja>WEBSITE_VISITS</nacinDoseganjaCilja>
+        <ciljnaLokacija>Nemčija</ciljnaLokacija>
+        <jezik>de</jezik>
+        <dnevniProracun>100.0</dnevniProracun>
+        <strategijaPonudb>MAXIMIZE_CONVERSION_VALUE</strategijaPonudb>
+        <status>ENABLED</status>
+        <datumUstvarjanja>2026-10-06</datumUstvarjanja>
+        <skupineOglasov>
+            <skupinaOglasov>
+                <id>S011</id>
+                <kampanjaId>K011</kampanjaId>
+                <ime>Computer Zubehör</ime>
+                <status>ENABLED</status>
+                <kljucneBesede>
+                    <kljucnaBeseda>
+                        <id>KB021</id>
+                        <skupinaId>S011</skupinaId>
+                        <besedilo>computer zubehör kaufen</besedilo>
+                        <ujemanje>BROAD</ujemanje>
+                        <povprecnaMesecnaIskanja>12100</povprecnaMesecnaIskanja>
+                        <trimesečnaSprememba>11</trimesečnaSprememba>
+                        <letnaSprememba>17</letnaSprememba>
+                        <konkurenca>HIGH</konkurenca>
+                        <ponudbaNizka>0.65</ponudbaNizka>
+                        <ponudbaVisoka>2.7</ponudbaVisoka>
+                    </kljucnaBeseda>
+                    <kljucnaBeseda>
+                        <id>KB022</id>
+                        <skupinaId>S011</skupinaId>
+                        <besedilo>pc hardware online shop</besedilo>
+                        <ujemanje>EXACT</ujemanje>
+                        <povprecnaMesecnaIskanja>3600</povprecnaMesecnaIskanja>
+                        <trimesečnaSprememba>8</trimesečnaSprememba>
+                        <letnaSprememba>12</letnaSprememba>
+                        <konkurenca>HIGH</konkurenca>
+                        <ponudbaNizka>0.75</ponudbaNizka>
+                        <ponudbaVisoka>3.1</ponudbaVisoka>
+                    </kljucnaBeseda>
+                </kljucneBesede>
+                <oglasi>
+                    <oglas>
+                        <id>O011</id>
+                        <skupinaId>S011</skupinaId>
+                        <koncniUrl>https://example.com/computer-zubehor</koncniUrl>
+                        <prikaznaPot1>computer</prikaznaPot1>
+                        <prikaznaPot2 />
+                        <naslovi>
+                            <naslov>Computer Zubehör kaufen</naslov>
+                            <naslov>PC Hardware online entdecken</naslov>
+                            <naslov>Zubehör für Ihren Computer</naslov>
+                        </naslovi>
+                        <opisi>
+                            <opis>Entdecken Sie Computerzubehör und passende Hardware für Ihren Arbeitsplatz.</opis>
+                            <opis>Finden Sie das richtige Zubehör für Ihren PC und bestellen Sie bequem online.</opis>
+                        </opisi>
+                        <status>ENABLED</status>
+                    </oglas>
+                </oglasi>
+            </skupinaOglasov>
+            <skupinaOglasov>
+                <id>S020</id>
+                <kampanjaId>K011</kampanjaId>
+                <ime>Gaming Zubehör</ime>
+                <status>ENABLED</status>
+                <kljucneBesede>
+                    <kljucnaBeseda>
+                        <id>KB039</id>
+                        <skupinaId>S020</skupinaId>
+                        <besedilo>gaming zubehör</besedilo>
+                        <ujemanje>BROAD</ujemanje>
+                        <povprecnaMesecnaIskanja>9900</povprecnaMesecnaIskanja>
+                        <trimesečnaSprememba>18</trimesečnaSprememba>
+                        <letnaSprememba>14</letnaSprememba>
+                        <konkurenca>HIGH</konkurenca>
+                        <ponudbaNizka>0.65</ponudbaNizka>
+                        <ponudbaVisoka>2.75</ponudbaVisoka>
+                    </kljucnaBeseda>
+                    <kljucnaBeseda>
+                        <id>KB040</id>
+                        <skupinaId>S020</skupinaId>
+                        <besedilo>gaming tastatur kaufen</besedilo>
+                        <ujemanje>EXACT</ujemanje>
+                        <povprecnaMesecnaIskanja>4400</povprecnaMesecnaIskanja>
+                        <trimesečnaSprememba>11</trimesečnaSprememba>
+                        <letnaSprememba>16</letnaSprememba>
+                        <konkurenca>HIGH</konkurenca>
+                        <ponudbaNizka>0.75</ponudbaNizka>
+                        <ponudbaVisoka>3.0</ponudbaVisoka>
+                    </kljucnaBeseda>
+                </kljucneBesede>
+                <oglasi>
+                    <oglas>
+                        <id>O020</id>
+                        <skupinaId>S020</skupinaId>
+                        <koncniUrl>https://example.com/gaming-zubehor</koncniUrl>
+                        <prikaznaPot1>gaming</prikaznaPot1>
+                        <prikaznaPot2 />
+                        <naslovi>
+                            <naslov>Gaming Zubehör online</naslov>
+                            <naslov>Gaming Tastaturen entdecken</naslov>
+                            <naslov>Zubehör für Ihr Gaming Setup</naslov>
+                        </naslovi>
+                        <opisi>
+                            <opis>Entdecken Sie Gaming Zubehör für Ihren PC und stellen Sie Ihr Setup zusammen.</opis>
+                            <opis>Finden Sie Gaming Tastaturen und weiteres Zubehör für Ihr Spielerlebnis.</opis>
+                        </opisi>
+                        <status>ENABLED</status>
+                    </oglas>
+                </oglasi>
+            </skupinaOglasov>
+        </skupineOglasov>
+    </kampanja>
+</kampanje>
