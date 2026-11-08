@@ -1,0 +1,5 @@
+pydantic>=2
+python-dotenv
+streamlit
+playwright
+groq
