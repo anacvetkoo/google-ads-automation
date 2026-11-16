@@ -1,0 +1,100 @@
+syntax = "proto3";
+
+package google_ads;
+
+import "google/protobuf/struct.proto";
+
+service GoogleAdsService {
+  rpc UstvariOsnutek(UstvariOsnutekRequest) returns (UstvariOsnutekResponse);
+  rpc PridobiStran(PridobiStranRequest) returns (PridobiStranResponse);
+  rpc GenerirajSkupino(GenerirajSkupinoRequest) returns (stream GenerirajSkupinoResponse);
+  rpc IzvoziOsnutek(IzvoziOsnutekRequest) returns (IzvoziOsnutekResponse);
+}
+
+//prisotnost scalar polj ohrani manjkajoce in prazne vrednosti
+message NastavitveKampanje {
+  optional string ime = 1;
+  optional string cilj = 2;
+  optional string lokacija = 3;
+  optional string jezik = 4;
+  optional string ciljna_skupina = 5;
+  optional string ton = 6;
+  optional string dodatna_navodila = 7;
+}
+
+message PodatkiStrani {
+  optional string url = 1;
+  optional string datum_pridobivanja = 2;
+  optional string title = 3;
+  optional string meta_description = 4;
+  optional string jezik = 5;
+  repeated string h1 = 6;
+  repeated string h2 = 7;
+  repeated string h3 = 8;
+  optional string besedilo = 9;
+  repeated google.protobuf.Struct notranje_povezave = 10;
+}
+
+message KontekstGeneriranja {
+  NastavitveKampanje nastavitve = 1;
+  repeated PodatkiStrani strani = 2;
+  optional string ime_skupine = 3;
+  optional string opis_ponudbe = 4;
+  optional string prednosti = 5;
+  optional string navodila_skupine = 6;
+  google.protobuf.Struct serp_context = 7;
+  google.protobuf.Struct keyword_planner_context = 8;
+}
+
+message PredlogKljucneBesede {
+  optional string besedilo = 1;
+  optional string ujemanje = 2;
+  optional string razlog = 3;
+}
+
+message PredlogOglasa {
+  optional string koncni_url = 1;
+  optional string prikazna_pot1 = 2;
+  optional string prikazna_pot2 = 3;
+  repeated string naslovi = 4;
+  repeated string opisi = 5;
+}
+
+message PredlogSkupine {
+  optional string ime = 1;
+  optional string tema = 2;
+  repeated PredlogKljucneBesede kljucne_besede = 3;
+  repeated PredlogOglasa oglasi = 4;
+}
+
+message CampaignDraft {
+  optional string schema_version = 1;
+  NastavitveKampanje nastavitve = 2;
+  repeated PredlogSkupine skupine_oglasov = 3;
+}
+
+message UstvariOsnutekRequest { NastavitveKampanje nastavitve = 1; }
+message UstvariOsnutekResponse { CampaignDraft osnutek = 1; }
+message PridobiStranRequest { string url = 1; }
+message PridobiStranResponse { PodatkiStrani stran = 1; }
+message GenerirajSkupinoRequest { KontekstGeneriranja kontekst = 1; }
+
+message StanjeGeneriranja {
+  string sporocilo = 1;
+  bool poteka = 2;
+}
+
+message GenerirajSkupinoResponse {
+  oneof vsebina {
+    StanjeGeneriranja stanje = 1;
+    PredlogSkupine skupina = 2;
+  }
+}
+
+message IzvoziOsnutekRequest { CampaignDraft osnutek = 1; }
+message IzvoziOsnutekResponse {
+  string json_vsebina = 1;
+  string ime_datoteke = 2;
+  string mime_tip = 3;
+  int32 stevilo_skupin = 4;
+}

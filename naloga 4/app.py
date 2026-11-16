@@ -1,19 +1,10 @@
 # streamlit aplikacija
-import asyncio
-import json
-import sys
-from pathlib import Path
 from urllib.parse import urlsplit
 
 import streamlit as st #iz python kode naredi spletni vmesnik
 
-from modeli import NastavitveKampanje, PodatkiStrani, KontekstGeneriranja, CampaignDraft
-from ai_generator import generiraj_oglase
-
-KOREN = Path(__file__).resolve().parent.parent
-MAPA_PARSERJA = KOREN / "naloga 2"
-sys.path.insert(0, str(MAPA_PARSERJA))
-from parser import razcleni_stran
+from modeli import NastavitveKampanje, KontekstGeneriranja
+from grpc_client import NapakaGRPC, ustvari_osnutek, pridobi_stran, generiraj_skupino, izvozi_osnutek
 
 st.set_page_config(page_title="AI generator Google Ads kampanj", page_icon="📊", layout="wide")
 st.title("AI generator Google Ads kampanj")
@@ -45,9 +36,15 @@ if st.session_state.kampanja is None:
                 ciljna_skupina=ciljna_skupina.strip(), ton=ton,
                 dodatna_navodila=dodatna_navodila.strip(),
             )
-            st.session_state.kampanja = CampaignDraft(nastavitve=nastavitve)
-            st.session_state.prikazi_obrazec_skupine = False
-            st.rerun()
+            try:
+                osnutek = ustvari_osnutek(nastavitve)
+            except Exception as napaka:
+                st.error(str(napaka) if isinstance(napaka, NapakaGRPC) else "Kampanje ni mogoče ustvariti. Preveri podatke in zagon gRPC strežnika.")
+            else:
+                st.session_state.kampanja = osnutek
+                st.session_state.izvoz = None
+                st.session_state.prikazi_obrazec_skupine = False
+                st.rerun()
 else:
     osnutek = st.session_state.kampanja
     st.header(f"Kampanja: {osnutek.nastavitve.ime}")
@@ -110,8 +107,7 @@ else:
             else:
                 try:
                     with st.spinner("Pridobivam vsebino spletne strani ..."):
-                        podatki = asyncio.run(razcleni_stran(url))
-                        stran = PodatkiStrani.model_validate(podatki)
+                        stran = pridobi_stran(url)
                     kontekst = KontekstGeneriranja(
                         nastavitve=osnutek.nastavitve,
                         strani=[stran],
@@ -121,26 +117,41 @@ else:
                         navodila_skupine=navodila_skupine.strip(),
                     )
                     with st.spinner("Generiranje ključnih besed in oglasa ..."):
-                        skupina = generiraj_oglase(kontekst)
-                    osnutek.skupine_oglasov.append(skupina)
-                    st.session_state.kampanja = osnutek
+                        stanje = st.empty()
+                        skupina = generiraj_skupino(kontekst, prikazi_stanje=stanje.info)
+                        stanje.success("Skupina je uspešno ustvarjena.")
+                    #posodobitev osnutka šele po uspešnem zaključku streaminga
+                    novi_osnutek = osnutek.model_copy(deep=True)
+                    novi_osnutek.skupine_oglasov.append(skupina)
+                    st.session_state.kampanja = novi_osnutek
+                    st.session_state.izvoz = None
                     st.session_state.prikazi_obrazec_skupine = False
                     st.rerun()
-                except Exception as e:
-                    st.error(f"Skupina ni bila dodana: {e}")
+                except Exception as napaka:
+                    st.error(str(napaka) if isinstance(napaka, NapakaGRPC) else "Skupina ni bila dodana. Preveri vhodne podatke in strežniško konfiguracijo.")
                     st.info("Kampanja in že uspešno ustvarjene skupine so ohranjene. Poskusi ponovno.")
 
     if osnutek.skupine_oglasov:
         st.divider()
-        st.download_button(
-            "Prenesi JSON osnutek kampanje",
-            data=json.dumps(osnutek.model_dump(mode="json"), ensure_ascii=False, indent=2),
-            file_name="google_ads_osnutek.json",
-            mime="application/json",
-        )
+        #izvoz se pridobi samo na uporabniško zahtevo
+        if st.session_state.get("izvoz") is None:
+            if st.button("Pripravi JSON osnutek za prenos"):
+                try:
+                    st.session_state.izvoz = izvozi_osnutek(osnutek)
+                except Exception as napaka:
+                    st.error(str(napaka) if isinstance(napaka, NapakaGRPC) else "JSON osnutka ni mogoče pripraviti. Poskusi ponovno.")
+        izvoz = st.session_state.get("izvoz")
+        if izvoz is not None:
+            st.download_button(
+                "Prenesi JSON osnutek kampanje",
+                data=izvoz.json_vsebina,
+                file_name=izvoz.ime_datoteke,
+                mime=izvoz.mime_tip,
+            )
 
     st.divider()
     if st.button("Začni novo kampanjo"):
         st.session_state.kampanja = None
+        st.session_state.izvoz = None
         st.session_state.prikazi_obrazec_skupine = False
         st.rerun()
